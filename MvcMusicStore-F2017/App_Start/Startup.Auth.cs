@@ -49,9 +49,9 @@ namespace MvcMusicStore_F2017
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
-            app.UseMicrosoftAccountAuthentication(
-                clientId: ConfigurationManager.AppSettings["MicrosoftClientId"],
-                clientSecret: ConfigurationManager.AppSettings["MicrosftClientSecret"]);
+            //app.UseMicrosoftAccountAuthentication(
+            //    clientId: ConfigurationManager.AppSettings["MicrosoftClientId"],
+            //    clientSecret: ConfigurationManager.AppSettings["MicrosftClientSecret"]);
 
             //app.UseTwitterAuthentication(
             //   consumerKey: "",
